@@ -9562,7 +9562,7 @@ textarea.form-control {
   @media (max-width: 768px) {
     #preloader_image{
       position: absolute;
-      left: -8px;
+      left: -5px;
       top: 23%;
     }
   }
