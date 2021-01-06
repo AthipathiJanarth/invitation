@@ -9618,6 +9618,6 @@ textarea.form-control {
 
   @media only screen and (max-width: 768px){
     #lovestory-section{
-      background-size: contain;
+      background-size: 100%;
       }
     }
