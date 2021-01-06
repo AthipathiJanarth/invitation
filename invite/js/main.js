@@ -290,8 +290,8 @@
 		$("#seconds").html(seconds + "<span>Seconds</span>");	
 		}
 		else{
-			$("#timer").html("<h2 class='txt-mrg'>We are Married</h2>");
-			$("#change-txt").html("We Are Married")
+			$("#timer").html("<h2 class='txt-mrg'>Thanks For Celebrating with us</h2>");
+			$("#change-txt").html("<span class='subheading'>We Are Married</span>")
 		}
 			
 
