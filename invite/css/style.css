@@ -9618,6 +9618,7 @@ textarea.form-control {
 
   @media only screen and (max-width: 768px){
     #lovestory-section{
-      background-size: 100%;
+      background-image: url(bg_1.jpeg);
+      
       }
     }
