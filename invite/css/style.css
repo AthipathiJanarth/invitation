@@ -8939,7 +8939,9 @@ textarea.form-control {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed; }
-  @media only screen and (max-device-width: 480px) {
+  @media only screen 
+  and (min-device-width : 414px) 
+  and (max-device-width : 736px) {
     .ftco-love{
       background-attachment:scroll;
     }
