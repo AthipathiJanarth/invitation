@@ -9615,8 +9615,9 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
+
+  @media only screen and (max-width: 768px){
     #lovestory-section{
-      @media screen and (max-width:992px){
       background-size: contain;
       }
     }
