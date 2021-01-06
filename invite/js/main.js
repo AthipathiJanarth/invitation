@@ -291,6 +291,7 @@
 		}
 		else{
 			$("#timer").html("<h2 class='txt-mrg'>We are Married</h2>");
+			$("#change-txt").html("We Are Married")
 		}
 			
 
