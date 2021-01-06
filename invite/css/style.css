@@ -8939,9 +8939,11 @@ textarea.form-control {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed; }
-#lovestory-section{
-    background-size: cover;
-}
+  @media (max-width: 768px){
+    .ftco-love{
+      background-attachment:scroll;
+    }
+  }
 
 .timeline {
   list-style: none;
