@@ -8939,6 +8939,11 @@ textarea.form-control {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed; }
+@supports (-webkit-touch-callout: none) {
+  #lovestory-section{
+    background-size: cover;
+  }
+}
 
 .timeline {
   list-style: none;
