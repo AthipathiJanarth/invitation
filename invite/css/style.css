@@ -8946,14 +8946,7 @@ textarea.form-control {
       background-attachment:scroll;
     }
   }
-  @media only screen 
-  and (min-device-width : 375px) 
-  and (max-device-width : 667px) {
-    .ftco-love{
-      background-attachment:scroll;
-    }
-  }
-
+  
 .timeline {
   list-style: none;
   padding: 20px 0 20px;
