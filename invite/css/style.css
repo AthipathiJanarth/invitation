@@ -8690,6 +8690,11 @@ h5,
       font-family: "Rochester", cursive;
       font-size: 8vw;
       color: #fff; }
+      @media (max-width: 768px) {
+        .mobile-show{
+          padding-left: 20px;
+        }
+      }
 
 #timer {
   width: 100%;
