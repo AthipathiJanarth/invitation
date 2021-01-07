@@ -8940,12 +8940,36 @@ textarea.form-control {
   background-position: center center;
   background-attachment: fixed; }
   @media only screen 
-  and (min-device-width : 414px) 
-  and (max-device-width : 736px) {
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) {
     .ftco-love{
       background-attachment:scroll;
     }
   }
+  @media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+      .ftco-love{
+        background-attachment:scroll;
+      }
+    }
+    @media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) {
+      .ftco-love{
+        background-attachment:scroll;
+      }
+     }
+    @media only screen and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+      .ftco-love{
+        background-attachment:scroll;
+      }
+     }
+
+
   
 .timeline {
   list-style: none;
