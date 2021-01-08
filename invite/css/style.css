@@ -8694,9 +8694,6 @@ h5,
         .mobile-show{
           padding-left: 20px;
         }
-        .mobile-show br{
-          display: block;
-        }
       }
 
 #timer {
@@ -8954,6 +8951,19 @@ textarea.form-control {
     .ftco-love{
       background-attachment:scroll;
     }
+    .mobile-show{
+      padding-left: 0px;
+    }
+  }
+  @media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 2) { 
+    .ftco-love{
+    background-attachment:scroll;
+    }
+  }
+  @media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 3) {
+    .ftco-love{
+      background-attachment:scroll;
+      }
   }
   @media only screen 
     and (device-width : 375px) 
