@@ -8694,6 +8694,9 @@ h5,
         .mobile-show{
           padding-left: 20px;
         }
+        .mobile-show br{
+          display: block;
+        }
       }
 
 #timer {
