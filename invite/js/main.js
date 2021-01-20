@@ -276,7 +276,7 @@
 
 		var timeLeft = endTime - now;
 		
-		//if(timeLeft>0){
+		if(timeLeft>0){
 		var days = Math.floor(timeLeft / 86400); 
 		var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
 		var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
